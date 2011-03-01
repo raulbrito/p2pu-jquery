@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"*>
+ <html>                                                                  
+ <head>                                                                  
+  <title>Title</title>
+ <script type="text/javascript" src="jquery.js"></script>          
+ <script type="text/javascript" src="jquery.tmpl.min.js"></script>          
+ <script type="text/javascript" src="underscore-min.js"></script> 
+ <script type="text/javascript" src="courseinfo.js"></script>
+ <script type="text/javascript" src="app.js"></script>                                        
+ <script id="studentTemplate" type="text/x-jquery-tmpl">
+   <tr>
+    <td> ${FName} </td>
+    <td> ${DOB} </td>
+    <td> ${Status} </td>
+    <td> ${Score} </td>
+   </tr>
+ </script>
+ <link href="app.css" rel="stylesheet" type="text/css">
+ </head>                                                                 
+ <body>                                                                  
+  <div id="mydiv">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Status</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody class="studentInfo"/>
+    </table>
+    
+  </div>
+ </body>                                                                 
+ </html>
+
+
+
+
